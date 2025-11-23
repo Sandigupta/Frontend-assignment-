@@ -6,6 +6,9 @@ A lightweight, AI-assisted code generation tool that converts natural language p
 ![Express](https://img.shields.io/badge/Express-4.18.2-000000?style=for-the-badge\&logo=express\&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
 
+<img width="1920" height="868" alt="Image" src="https://github.com/user-attachments/assets/402a76a1-903d-49dd-a43b-f2d1c790ea09" />
+<img width="1920" height="868" alt="Image" src="https://github.com/user-attachments/assets/7824829c-1842-48fc-96e5-1ded11cd9e9d" />
+
 ---
 
 ## Overview
