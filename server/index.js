@@ -1,5 +1,10 @@
 import express from 'express';
 import cors from 'cors';
+app.use(cors({
+  origin: '*',  
+  methods: ['GET','POST']
+}));
+
 
 const app = express();
 const port = process.env.PORT || 3001;

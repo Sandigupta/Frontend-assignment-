@@ -5,6 +5,7 @@ import LanguageSelector from './components/LanguageSelector';
 import CodeOutput from './components/CodeOutput';
 import HistoryPanel from './components/HistoryPanel';
 
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 
 function App() {
@@ -50,7 +51,7 @@ function App() {
         setCode(''); // Clear previous code
 
         try {
-            const response = await fetch('http://localhost:3001/api/generate', {
+            const response = await fetch(`${API_URL}/api/generate`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
