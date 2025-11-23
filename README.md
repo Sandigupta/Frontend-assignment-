@@ -9,6 +9,15 @@ A lightweight, AI-assisted code generation tool that converts natural language p
 <img width="1920" height="868" alt="Image" src="https://github.com/user-attachments/assets/402a76a1-903d-49dd-a43b-f2d1c790ea09" />
 <img width="1920" height="868" alt="Image" src="https://github.com/user-attachments/assets/7824829c-1842-48fc-96e5-1ded11cd9e9d" />
 
+
+## History Button on Navbar when display size of mobile: 
+<img width="685" height="96" alt="Image" src="https://github.com/user-attachments/assets/8d940eda-5cb5-4c20-bfd7-f132f09d3817" />
+
+
+## History panel on clicking Navbar Button:
+<img width="688" height="1219" alt="Image" src="https://github.com/user-attachments/assets/4d19f39d-7b20-45ab-8a07-d91424170150" />
+
+
 ---
 
 ## Overview
