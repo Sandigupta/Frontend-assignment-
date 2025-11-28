@@ -1,16 +1,20 @@
 import express from 'express';
 import cors from 'cors';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const app = express();
+
 app.use(cors({
   origin: '*',  
   methods: ['GET','POST']
 }));
 
-
-const app = express();
-const port = process.env.PORT || 3001;
-
-app.use(cors());
 app.use(express.json());
+
+
+const port = process.env.PORT || 3001;
 
 // Mock AI Generation Logic
 const generateCode = (prompt, language) => {
