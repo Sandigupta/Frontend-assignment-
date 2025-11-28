@@ -5,7 +5,7 @@ import LanguageSelector from './components/LanguageSelector';
 import CodeOutput from './components/CodeOutput';
 import HistoryPanel from './components/HistoryPanel';
 
-const API_URL = import.meta.env.VITE_BACKEND_URL;
+const API_URL = import.meta.env.VITE_BACKEND_URL || 'https://frontend-assignment-1-pasq.onrender.com';
 
 
 function App() {
