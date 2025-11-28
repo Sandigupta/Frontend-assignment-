@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Code Copilot
 
 A lightweight, AI-powered code generation tool designed to assist developers by generating code snippets from natural language prompts. This project features a modern, responsive React frontend and a mock Node.js backend to simulate AI responses.
