@@ -224,7 +224,6 @@ git clone <repository-url>
 cd frontend
 ```
 
-<<<<<<< HEAD
 ### 2. Setup Backend
 Navigate to the server directory, install dependencies, and start the server.
 =======
@@ -235,7 +234,7 @@ cd server
 npm install
 npm start
 ```
-<<<<<<< HEAD
+
 The backend will start running at `http://localhost:3001`.
 
 ### 3. Setup Frontend
