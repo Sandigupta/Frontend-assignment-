@@ -219,7 +219,6 @@ frontend/
 
 ### 1. Clone Repository
 
->>>>>>> a9d69bbac86e579f93ffb0620b7cc82557befa8f
 ```bash
 git clone <repository-url>
 cd frontend
@@ -230,7 +229,6 @@ cd frontend
 Navigate to the server directory, install dependencies, and start the server.
 =======
 ### 2. Backend Setup
->>>>>>> a9d69bbac86e579f93ffb0620b7cc82557befa8f
 
 ```bash
 cd server
@@ -251,14 +249,12 @@ Mock AI backend running on http://localhost:3001
 ```
 
 ### 3. Frontend Setup
->>>>>>> a9d69bbac86e579f93ffb0620b7cc82557befa8f
 
 ```bash
 cd client
 npm install
 npm run dev
 ```
-<<<<<<< HEAD
 The frontend will be available at `http://localhost:5173`.
 
 > **Note**: Ensure the backend is running before trying to generate code.
@@ -302,7 +298,6 @@ Generates code from a prompt and language selection.
 
 #### Request Body
 
->>>>>>> a9d69bbac86e579f93ffb0620b7cc82557befa8f
 ```json
 {
   "prompt": "Write a function to reverse a string",
@@ -321,14 +316,12 @@ Generates code from a prompt and language selection.
 ```json
 {
   "code": "...generated code...",
->>>>>>> a9d69bbac86e579f93ffb0620b7cc82557befa8f
   "language": "python",
   "timestamp": 1716451200000
 }
 ```
 
-<<<<<<< HEAD
-## 🧠 Design Decisions
+##  Design Decisions
 
 - **Separation of Concerns**: The project is strictly divided into `client` and `server` directories to mimic a real-world full-stack application structure.
 - **Mocking Strategy**: Instead of integrating a paid AI API (like OpenAI) for this assignment, a robust mock system was implemented. It uses templates and simple keyword matching (e.g., detecting "loop") to provide dynamic-feeling responses without external dependencies.
@@ -434,4 +427,3 @@ Additional support for Go, Rust, Swift, PHP, etc.
 ### Prompt Suggestions
 
 Autocomplete, reusable templates, and personalized suggestions.
->>>>>>> a9d69bbac86e579f93ffb0620b7cc82557befa8f
